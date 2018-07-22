@@ -1,2 +1,2 @@
 # smpl
-Jekyll theme for stphnhthwy.com 
+Jekyll theme for [stphnhthwy.com] (http://stphnhthwy.com/)
