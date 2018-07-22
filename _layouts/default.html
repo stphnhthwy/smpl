@@ -1,1 +1,18 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>stphnhthwy</title>
+  <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}" />
+</head>
+<body>
+  <div class="container">
+    <section class="content">
+      <nav>
+        {% include main_nav.html %}
+      </nav>
+      {{ content }}
+    </section>
+  </div>
+</body>
+</html>
