@@ -1,0 +1,63 @@
+//imports
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import "colors";
+
+//serif
+$serif-family: 'Playfair Display', serif;
+$serif-weight-regular: 400;
+$serif-weight-bold: 700;
+$serif-weight-black: 900;
+$serif-height: 1.5;
+
+
+//sans-serif
+$sans-serif-family: 'Lato', Helvetica, sans-serif;
+$sans-serif-weight-regular: 300;
+$sans-serif-weight-bold: 400;
+$sans-serif-weight-black: 700;
+$sans-serif-height: 1.5;
+
+//typography
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.375rem;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+//utility
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.justify {
+  text-align: justify;
+}
+.hidden-sm {
+  display: none;
+}

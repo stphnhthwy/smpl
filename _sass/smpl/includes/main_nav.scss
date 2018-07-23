@@ -1,0 +1,42 @@
+.main-nav {
+  height: 3.75rem;
+}
+
+.nav-list {
+  list-style: none;
+  float: right;
+}
+
+.nav-list li,
+.nav-list a {
+  font-family: $sans-serif-family;
+  color: $purple;
+	display: inline-block;
+  text-decoration: none;
+}
+
+.nav-list li a {
+	padding: 10px;
+}
+
+.link-style {
+  // font-family: $sans-serif-family;
+}
+
+a.hover {
+  // bottom: -3px;
+  left: -8px;
+  // z-index: -1;
+  height: 3px;
+  background: $light-green;
+  transform: .3s;
+}
+
+a.active {
+  // bottom: -3px;
+  left: -8px;
+  // z-index: -1;
+  height: 3px;
+  background: $light-green;
+  transform: .3s;
+}
